@@ -8,7 +8,7 @@ function Products() {
 
   const handleProduct = () => {
     dispatch(
-      getSingleProductAction({ name: "Esmir", age: 24, adresa: "Banovici 166" })
+      getSingleProductAction({ name: "Josh", age: 24, adresa: "London" })
     );
   };
 
